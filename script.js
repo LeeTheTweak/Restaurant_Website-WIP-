@@ -16,31 +16,19 @@ $(document).ready(function(){
 var topDishes = document.getElementsByClassName("boxes");
 function adOneHover() {
     dishNameHeader.textContent = "The Rock";
-    $(function(){
-        $(dishNameHeader).animate({
-            paddingLeft: "300px"
-        });
-    });
+    
         priceEl.textContent = "$20";
 }
 topDishes[0].addEventListener("mouseover", adOneHover, false);
 function adTwoHover() {
     dishNameHeader.textContent = "The Steak Garden";
-    $(function(){
-        $(dishNameHeader).animate({
-            paddingLeft: "300px"
-        });
-    });
+
         priceEl.textContent = "$10";
 }
 topDishes[1].addEventListener("mouseover", adTwoHover, false);
 function adThreeHover() {
     dishNameHeader.textContent = "Icy Mountain";
-    $(function(){
-        $(dishNameHeader).animate({
-            paddingLeft: "300px"
-        });
-    });
+ 
         priceEl.textContent = "$5";
 }
 topDishes[2].addEventListener("mouseover", adThreeHover,false);

@@ -11,6 +11,6 @@ var Dinner = document.getElementById("dinnerWord");
 $(document).ready(function(){
     $(table).hide().delay(500).fadeIn(1500);
     $(Dinner).animate({
-        marginLeft: "+=8",
+        paddingLeft: "50px",
     });
 });
