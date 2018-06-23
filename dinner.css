@@ -31,6 +31,7 @@ body {
     padding-top: 1px;
     color: white;
     overflow: auto;
+    width: 100%;
 }
 #content p {
     font-size: 100px;
@@ -38,10 +39,12 @@ body {
     text-align: center;
     padding-right: 2px;
     border-bottom: 2px solid white;
+    width: auto;
 }
 tr td {
     border: 1px solid rgb(122, 122, 122);
     padding: 5px;
+    width: auto;
 }
 td img{
     width: 200px;
