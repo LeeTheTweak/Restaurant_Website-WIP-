@@ -38,13 +38,8 @@ body {
     font-weight: bolder;
     text-align: center;
     padding-right: 2px;
-<<<<<<< HEAD
-    border-bottom: 2px solid white;
-    width: auto;
-=======
     border-right: 2px solid white;
     float:left;
->>>>>>> fa80a18402435e1ba75b01e563e14171720e04f6
 }
 tr td {
     border: 1px solid rgb(122, 122, 122);
