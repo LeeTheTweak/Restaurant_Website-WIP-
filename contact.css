@@ -1,0 +1,124 @@
+html, body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+#header {
+    background-color:rgb(221, 195, 195);
+    background-image: url('photos/woodBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid palevioletred;
+}
+#header img {
+    width: 15%;
+
+}
+#header ul {
+    float: right;
+}
+#header li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#aboutList {
+    border-right: 2px solid rgb(233, 98, 98);
+}
+#aboutList:hover {
+    color:palevioletred;
+}
+#nutritionList {
+    border-right: 2px solid rgb(233, 98, 98);
+}
+#nutritionList:hover {
+    color: palevioletred; 
+}
+#menuList {
+    border-right: none;
+}
+#menuList:hover {
+    color: palevioletred;
+}
+#header h1 {
+    color: white;
+    font-size: 130px;
+    text-align: center;
+}
+#content {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#formContainer {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+legend {
+    text-align: center;
+}
+form,fieldset {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+input {
+    width: 80%;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    resize: none;
+}
+#map {
+    padding-top: 10px;
+    width: 50%;
+    height: 538px;
+}
+#buttonContainer {          /*for getting it centered*/
+    width: 100%;
+    text-align: center;
+}
+button {
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid black;
+}
+#footer {
+    width: auto;
+    height: 100px;
+    background-color: black;
+    background-image: url("photos/woodBG.png");
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#copyright {
+    margin-top: 40px;
+    position: absolute;
+}
+#credit {
+    float: right;
+    margin-top: 40px;
+}
+

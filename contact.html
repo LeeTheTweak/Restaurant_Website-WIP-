@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial, scale=1'/>
+        <title>Contact</title>
+        <link href='contact.css' type='text/css' rel='stylesheet'/>
+    </head>
+    <body>
+        
+        <div id='header'>
+           <img src='photos/Steak.png'/>
+           <ul id='unorderedList'>
+            <a href='index.html'><li id='aboutList'>Home</li></a>
+            <a href="menu.html"><li id='menuList'>Menu</li></a>
+                </ul>
+            <h1>Contact Us!</h1>
+        </div>
+        
+        
+        <div id='content'>
+            <div id='formContainer'>
+        <fieldset>
+                <legend>Email Us</legend>
+            <form action = 'mailto:christopherleveston@gmail.com' method='post' enctype='text/plain'>
+                <input type='text' name='Name: ' placeholder='enter name...'/><br/>
+                <input type='email' name='Email: ' placeholder='enter email...'/><br/>
+                <h2 align='center'>Enter your message below!</h2>
+                <textarea maxlength='280' name='Comment'></textarea>
+            <div id='buttonContainer'>
+                <button id='sendButton' type='submit'>Send Email</button>
+            </div>
+            </form>
+        </fieldset>
+            </div>
+            <iframe id ='map'src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.7157061802!2d-88.01212842101089!3d41.833392552024705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+IL!5e0!3m2!1sen!2sus!4v1520219904921" 
+             frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+        </div>
+        <div id='footer'>
+            <p id='copyright'>Copyright &copy 2018, Rising Steak LLC</p><span id='credit'>By Christopher Leveston</span>
+            
+        </div>
+
+        <script src='jquery-3.3.1.js'></script>
+        <script src='contact.js'></script>
+    </body>
+</html>

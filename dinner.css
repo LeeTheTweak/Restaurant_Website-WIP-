@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#header {
+    background-color: rgba(128, 128, 128, 0.363);
+    background-image: url("photos/woodBG.png");
+    overflow: auto;
+}
+#headerContainer {
+    padding: 5px;
+}
+#steakLogo {
+    width: 10%;
+    float: left;
+    padding-right: 200px;
+}
+#Nav li {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 30px;
+    color: white;
+    position: relative;
+}
+#Nav li:hover {
+    color:rgb(250, 101, 101);
+}
+#content {
+    background-color: rgb(61, 61, 61);
+    padding-top: 1px;
+    color: white;
+    overflow: auto;
+}
+#content p {
+    font-size: 100px;
+    font-weight: bolder;
+    float: left;
+    padding-right: px;
+    border-right: 2px solid white;
+}
+table {
+    padding-left: 10px;
+}
+table tr td {
+    border: 1px solid rgb(122, 122, 122);
+    padding: 5px;
+}
+td img{
+    width: 250px;
+}
+
