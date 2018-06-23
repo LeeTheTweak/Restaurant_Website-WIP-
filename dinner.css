@@ -37,7 +37,7 @@ body {
     font-size: 100px;
     font-weight: bolder;
     float: left;
-    padding-right: px;
+    padding-right: 2px;
     border-right: 2px solid white;
 }
 table {
