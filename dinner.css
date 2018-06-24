@@ -39,6 +39,7 @@ body {
     text-align: center;
     padding-right: 2px;
     border-right: 2px solid white;
+    text-shadow: 2px 2px 20px white;
     float:left;
 }
 table {
@@ -49,6 +50,7 @@ tr td {
     border-radius: 5px;
     padding: 5px;
     width: auto;
+    box-shadow: 2px 2px 20px white;
 }
 td img{
     width: 200px;
