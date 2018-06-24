@@ -41,12 +41,37 @@ body {
     border-right: 2px solid white;
     float:left;
 }
+table {
+    padding: 10px;
+}
 tr td {
-    border: 1px solid rgb(122, 122, 122);
+    border: 2px double rgb(122, 122, 122);
+    border-radius: 5px;
     padding: 5px;
     width: auto;
 }
 td img{
     width: 200px;
 }
-
+#footer {
+    width: 100%;
+    padding: 1px;
+    height: 120px;
+    background-image: url("photos/woodBG.png");
+}
+#footerContent {
+    padding: 10px;
+}
+#footerContent li {
+    list-style-type: none;
+    display: inline-block;
+}
+#copyright {
+    color: white;
+    float: left;
+}
+#credit {
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
