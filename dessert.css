@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+#header {
+    background-color: rgba(128, 128, 128, 0.363);
+    background-image: url("photos/woodBG.png");
+    overflow: auto;
+}
+#headerContainer {
+    padding: 5px;
+}
+#steakLogo {
+    width: 10%;
+    float: left;
+    padding-right: 200px;
+}
+#Nav li {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 30px;
+    color: white;
+    position: relative;
+}
+#Nav li:hover {
+    color:rgb(250, 101, 101);
+}
+#content {
+    background-color: rgb(61, 61, 61);
+    padding-top: 1px;
+    color: white;
+    overflow: auto;
+    width: 100%;
+}
+#content p {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-right: 2px;
+    border-right: 2px solid white;
+    text-shadow: 2px 2px 20px white;
+    float:left;
+}
+table {
+    padding: 10px;
+}
+tr td {
+    border: 2px double rgb(122, 122, 122);
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+    box-shadow: 2px 2px 20px white;
+}
+td img{
+    width: 200px;
+}
+#footer {
+    width: 100%;
+    padding: 1px;
+    height: 120px;
+    background-image: url("photos/woodBG.png");
+}
+#footerContent {
+    padding: 10px;
+}
+#footerContent li {
+    list-style-type: none;
+    display: inline-block;
+}
+#copyright {
+    color: white;
+    float: left;
+}
+#credit {
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
